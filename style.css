@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: #f0f4ff;
+    color: #222;
+    padding: 20px;
+  }
+  
+  .app-container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .banner-img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto 20px;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    flex: 1;
+    background: #e0ecff;
+    border: none;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+  }
+  
+  .tab.active {
+    background: #4a90e2;
+    color: white;
+  }
+  
+  .schedule {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .period {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eef6ff;
+    padding: 10px 15px;
+    border-radius: 8px;
+  }
+  
+  .period input {
+    flex: 1;
+    margin-left: 10px;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+  }
+  
+  .banner-img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto 20px;
+    border-radius: 20px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  }
+  
